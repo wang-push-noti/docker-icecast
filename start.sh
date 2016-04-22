@@ -22,10 +22,11 @@ fi
 
 #cat /etc/icecast2/icecast.xml
  
+/etc/init.d/icecast2 restart
+/etc/init.d/mpd restart
 mpc outputs
 mpc update
 mpc ls | mpc add
 mpc repeat on
 mpc play
-
-supervisord -n -c /etc/supervisord.conf
+tail -f /var/log/mpd/*
