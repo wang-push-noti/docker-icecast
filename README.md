@@ -1,7 +1,7 @@
 
 MPC/MPD and Icecast2 Dockerfile
 
-[![](http://dockeri.co/image/alastairhm/icecast)](https://index.docker.io/u/alastairhm/icecast/)
+[![](http://dockeri.co/image/alastairhm/docker-icecast)](https://index.docker.io/u/alastairhm/docker-icecast/)
 
 Based on https://github.com/moul/docker-icecast
 
