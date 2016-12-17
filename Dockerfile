@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:jessie-slim
 
 MAINTAINER Alastair Montgomery "alastair@montgomery.me.uk"
 
